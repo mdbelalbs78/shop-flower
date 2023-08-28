@@ -50,3 +50,47 @@
     font-size: 35px;
     margin-bottom: 0px;
 }
+#instagram-description{
+    padding: 10px 150px;
+    text-align: center;
+}
+.ins-title{
+    text-align: center;
+    margin-top: 50px;
+}
+.inst-container{
+    display: flex;
+    margin: 25px 50px  100px;
+    justify-content: center;
+    align-items: center;
+}
+.inst-item{
+    width: 250px;
+    height: 280px;
+    padding: 10px;
+}
+.latest-deal{
+    
+    background-image: url("Rectangle\ 9.png");
+    height: 449px;
+}
+.latest-title{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px 150px;
+}
+.input-email{
+    width: 500px;
+    height: 40px;
+}
+.input-btn {
+    padding: 10px 13px;
+    color: white;
+    /* border-radius: 8px; */
+    background: #E55473;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    
+}
