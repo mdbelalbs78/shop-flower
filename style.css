@@ -1,7 +1,52 @@
-.banner-section{
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner-section {
     padding: 30px 30px 0px 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background: rgba(229, 84, 115, 0.10);
+}
+
+.ex-btn {
+    padding: 20px 43px;
+    color: white;
+    border-radius: 8px;
+    background: #E55473;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.heading {
+    color: #272727;
+    font-size: 40px;
+    margin: 0;
+
+}
+
+/* main section css  */
+.hot-section {
+    display: flex;
+    padding: 100px 30px 0px 30px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 120px;
+    justify-content: space-around;
+
+}
+
+.hot-deal {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.deal-heading {
+    color: #272727;
+    font-size: 35px;
+    margin-bottom: 0px;
 }
