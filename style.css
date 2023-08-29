@@ -50,44 +50,85 @@
     font-size: 35px;
     margin-bottom: 0px;
 }
-#f-bg{
+
+#flower-bg {
     border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
+    background: rgba(167, 33, 98, 0.15);
+    padding-bottom: 0px;
+    width: 290px;
+    height: 400px;
 }
-#instagram-description{
+
+#flower2-bg {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding-bottom: 0px;
+    width: 290px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+#flower3-bg {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding-bottom: 0px;
+    width: 290px;
+    height: 400px;
+    margin-left: 20px;
+
+}
+
+.flower-container {
+    display: flex;
+    margin: 25px 50px 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.p{
+    text-align: center;
+}
+
+#instagram-description {
     padding: 10px 150px;
     text-align: center;
 }
-.ins-title{
+
+.ins-title {
     text-align: center;
     margin-top: 50px;
 }
-.inst-container{
+
+.inst-container {
     display: flex;
-    margin: 25px 50px  100px;
+    margin: 25px 50px 100px;
     justify-content: center;
     align-items: center;
 }
-.inst-item{
+
+.inst-item {
     width: 250px;
     height: 280px;
     padding: 10px;
 }
-.latest-deal{
-    
+
+.latest-deal {
     background-image: url("Rectangle\ 9.png");
     height: 449px;
 }
-.latest-title{
+
+.latest-title {
     text-align: center;
     justify-content: center;
     align-items: center;
     padding: 100px 100px 150px;
 }
-.input-email{
+
+.input-email {
     width: 500px;
     height: 40px;
 }
+
 .input-btn {
     padding: 10px 13px;
     color: white;
@@ -96,10 +137,11 @@ background: rgba(167, 33, 98, 0.15);
     font-size: 17px;
     border: none;
     cursor: pointer;
-    
+
 }
+
 /* footer style css  */
-.footer{
+.footer {
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -110,11 +152,13 @@ background: rgba(167, 33, 98, 0.15);
     height: 349px;
     color: white;
 }
-.footer-title{
+
+.footer-title {
     color: #E55473;
     font-size: 48px;
     font-weight: 700;
 }
-.footer-span{
-    color:#fff;
+
+.footer-span {
+    color: #fff;
 }
