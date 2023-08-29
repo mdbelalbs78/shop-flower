@@ -50,6 +50,10 @@
     font-size: 35px;
     margin-bottom: 0px;
 }
+#f-bg{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+}
 #instagram-description{
     padding: 10px 150px;
     text-align: center;
@@ -93,4 +97,24 @@
     border: none;
     cursor: pointer;
     
+}
+/* footer style css  */
+.footer{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding-top: 130px;
+    background: #111010;
+    width: full;
+    height: 349px;
+    color: white;
+}
+.footer-title{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 700;
+}
+.footer-span{
+    color:#fff;
 }
