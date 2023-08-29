@@ -1,8 +1,30 @@
 * {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-
+.menu-container{
+    background: rgba(207, 56, 89, 0.1);
+    padding: 20px;
+    display: flex;   
+    color: black;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+.menu{
+    display: flex;  
+}
+.item{
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.banner-title{
+    padding: 5px;
+}
 .banner-section {
     padding: 30px 30px 0px 100px;
     display: flex;
@@ -11,7 +33,7 @@
     background: rgba(229, 84, 115, 0.10);
 }
 
-.ex-btn {
+.primary-btn {
     padding: 20px 43px;
     color: white;
     border-radius: 8px;
@@ -19,13 +41,13 @@
     font-size: 20px;
     border: none;
     cursor: pointer;
+    margin-top: 5px;
 }
 
 .heading {
     color: #272727;
     font-size: 40px;
     margin: 0;
-
 }
 
 /* main section css  */
@@ -43,6 +65,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 50px;
 }
 
 .deal-heading {
@@ -85,8 +108,9 @@
     align-items: center;
     margin: 10px;
 }
-.p{
+.feature-title{
     text-align: center;
+    text-decoration: underline;
 }
 
 #instagram-description {
@@ -97,6 +121,7 @@
 .ins-title {
     text-align: center;
     margin-top: 50px;
+    font-size: 30px;
 }
 
 .inst-container {
@@ -121,7 +146,8 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding: 100px 100px 150px;
+    padding: 100px 100px 100px;
+    
 }
 
 .input-email {
